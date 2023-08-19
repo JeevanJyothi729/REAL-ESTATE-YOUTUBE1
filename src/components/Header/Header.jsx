@@ -17,7 +17,7 @@ const Header = () => {
             <div className="flexCenter paddings inner-width h-container">
 
                 <img src="https://github.com/ZainRk/RealEstate-web-starterpack/blob/master/public/logo.png?raw=true" alt="logo" width={100} />
-
+                 
                <OutsideClickHandler
                onOutsideClick={()=> {
                  setMenuOpened(false)
@@ -29,18 +29,12 @@ const Header = () => {
                 style={getMenuStyles(menuOpened)}>
                 
                 
-                <a 
-                 href=""
-                >
-
-                    Residencies
-            
-                </a>
-                <a href="">Our Values</a>
-                <a href="">Contact Us</a>
-                <a href="">Get Started</a>
+                <a href="#"> Residencies</a>
+                <a href="#">Our Values</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Get Started</a>
                 <button className="button">
-                  <a href="">Contact</a>
+                  <a href="#">Contact</a>
                  </button>
                 </div>
                 </OutsideClickHandler>

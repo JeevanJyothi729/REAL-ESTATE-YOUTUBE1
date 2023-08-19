@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <div>
         <div className="white-gradient"/>
         <Header />
@@ -21,9 +21,9 @@ function App() {
       <Value/> 
       <Contact/>
       <GetStarted/>
-      /*<Footer/>
+      <Footer/>
     </div>
   );
-}
+};
 
 export default App;
